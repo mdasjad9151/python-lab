@@ -8,6 +8,6 @@ def print_even_index_characters(string):
             result += string[i]
     print(result)
 
-# Example usage
-input_string = "example"
+
+input_string = input("Enter a string: ")
 print_even_index_characters(input_string)

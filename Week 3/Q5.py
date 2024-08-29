@@ -7,6 +7,7 @@ def remove_chars(string, n):
         return ""
     return string[:n]
 
-
-new_string = remove_chars("aligarh", 3)
-print(new_string)  # Output: "ali"
+str =  input("Enter a string: ")
+num =  int(input("Enter a number"))
+new_string = remove_chars(str, num+1)
+print(new_string)  
