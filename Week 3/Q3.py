@@ -1,21 +1,13 @@
-'''
-2. Write a program to print the following start pattern using the for loop:
-*
-* *
-* * *
-* * * *
-* * * * *
-* * * *
-* * *
-* *
-*
-'''
-rows = 5
-for i in range(1, rows + 1):
-    for j in range(i):
-        print("*", end=" ")
-    print()
-for i in range(rows - 1, 0, -1):
-    for j in range(i):
-        print("*", end=" ")
-    print()
+# 3. Write a program to print characters from a string which are present at an even
+# index numbers.
+
+def print_even_index_characters(string):
+    result = ""
+    for i in range(len(string)):
+        if i % 2 == 0:
+            result += string[i]
+    print(result)
+
+# Example usage
+input_string = "example"
+print_even_index_characters(input_string)
