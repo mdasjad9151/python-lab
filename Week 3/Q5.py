@@ -9,5 +9,5 @@ def remove_chars(string, n):
 
 str =  input("Enter a string: ")
 num =  int(input("Enter a number"))
-new_string = remove_chars(str, num+1)
+new_string = remove_chars(str, num)
 print(new_string)  
