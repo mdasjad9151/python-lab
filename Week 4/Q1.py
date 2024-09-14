@@ -3,7 +3,6 @@
 variables and calculate addition and subtraction. Also, it must return both
 addition and subtraction in a single return call.
 '''
-
 def cal_sum_sub(a, b):
     addition = a + b
     subtraction = a - b
