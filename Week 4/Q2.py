@@ -18,4 +18,4 @@ while a != 'q':
     
 
 
-print(is_first_last_same(numbers))  # Output: True
+print(is_first_last_same(numbers))  
