@@ -3,8 +3,7 @@
     a. Number of uppercase characters
     b. Number of lowercase characters
     c. Total number of alphabets
-    d. Number of digits
-    
+    d. Number of digits    
 '''
 def analyze_string(input_str):
     uppercase_count = 0

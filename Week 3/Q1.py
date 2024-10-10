@@ -6,7 +6,7 @@
 2 1
 1
 '''
-rows = 5
+rows = int(input("Enter Row: "))
 for i in range(rows, 0,-1):
     for j in range(i, 0,-1):
         print(j, end=" ")

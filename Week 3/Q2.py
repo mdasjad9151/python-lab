@@ -10,7 +10,7 @@
 * *
 *
 '''
-rows = 5
+rows = int(input('Enter Row: '))
 for i in range(1, rows + 1):
     for j in range(i):
         print("*", end=" ")
