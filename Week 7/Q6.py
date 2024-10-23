@@ -1,4 +1,3 @@
-
 def swap_lines(file1, file2):
 
     with open(file1, 'r') as f1:

@@ -3,7 +3,9 @@
 def sum_of_squares_of_digits(number):
     if 1000 <= number <= 9999:  # Ensure it's a 4-digit number
         first_two_digits = number // 100
+        print(first_two_digits)
         last_two_digits = number % 100
+        print(last_two_digits)
         result = first_two_digits**2 + last_two_digits**2
         return result
     else:
